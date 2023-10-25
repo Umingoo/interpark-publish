@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>인터파크</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
   </head>
@@ -50,16 +55,21 @@
               </li>
               <li>
                 <a href="#"
-                  ><img src="images/icon_shopping.png" alt="" />쇼핑</a>
+                  ><img src="images/icon_shopping.png" alt="" />쇼핑</a
+                >
               </li>
               <li>
                 <a href="#"><img src="images/icon_book.png" alt="" />도서</a>
               </li>
               <li>
-                <a href="#"><img src="images/icon_triple.png" alt="" />트리플</a>
+                <a href="#"
+                  ><img src="images/icon_triple.png" alt="" />트리플</a
+                >
               </li>
               <li>
-                <a href="#" class="icon-hot"><img src="images/icon_special.png" alt="" />여행초특가</a>
+                <a href="#" class="icon-hot"
+                  ><img src="images/icon_special.png" alt="" />여행초특가</a
+                >
               </li>
             </ul>
             <!-- 오늘의 이벤트 메뉴 -->
@@ -74,9 +84,91 @@
         </div>
       </header>
       <!-- 메인 영역 -->
-      <div class="main"></div>
+      <div class="main">
+        <!-- 비주얼 슬라이드 영역 -->
+        <section class="visual">
+          <div class="visual-inner">
+            <!-- Swiper -->
+            <div class="swiper visaul-slide">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <!-- 실제 내용 배치 -->
+                  <div class="visaul-slide-item">
+                    <a href="#">
+                      <img src="images/v1.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="visaul-slide-item">
+                    <a href="#">
+                      <img src="images/v2.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="visaul-slide-item">
+                    <a href="#">
+                      <img src="images/v3.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="visaul-slide-item">
+                    <a href="#">
+                      <img src="images/v4.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="visaul-slide-item">
+                    <a href="#">
+                      <img src="images/v5.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="visaul-slide-item">
+                    <a href="#">
+                      <img src="images/v6.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Swiper Navigation -->
+            <button class="visual-slide-prev"></button>
+            <button class="visual-slide-next"></button>
+          </div>
+        </section>
+      </div>
       <!-- 하단 영역 -->
       <footer class="footer"></footer>
     </div>
   </body>
 </html>
+
+<script>
+  console.log(" html 태그 끝에 기재가 정말 좋은 자리");
+</script>
+
+<!-- Swiper JS : 1. 기능을 먼저 불러들여 줌-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper : 2. 기능을 사용함-->
+<script>
+  var swiper = new Swiper(".visaul-slide", {
+    slidesPerView: 2,
+    spaceBetween: 24,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    speed: 500,
+    navigation: {
+        nextEl: ".visual-slide-next",
+        prevEl: ".visual-slide-prev",
+      },
+  });
+</script>
