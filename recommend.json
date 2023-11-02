@@ -1,0 +1,83 @@
+{
+  "total": 12,
+  "good_1": {
+    "image": "images/r_1.jpg",
+    "discount": 27,
+    "price": 49900,
+    "desc": "[스포츠파크] 노스페이스 겨울 구스다운 패딩슬립온 NS93M50",
+    "url": "a.html"
+  },
+  "good_2": {
+    "image": "images/r_2.jpg",
+    "discount": 7,
+    "price": 61460,
+    "desc": "CLARINS 클라랑스 엑스트라 퍼밍 넥 앤 데콜테 케어 75ML / 넥크림/ 여행필수템 (11/7 예약발송)",
+    "url": "a.html"
+  },
+  "good_3": {
+    "image": "images/r_3.jpg",
+    "discount": 17,
+    "price": 13860,
+    "desc": "불스원 폴라패밀리 캐릭터 통풍구 방향제 X 3개입",
+    "url": "a.html"
+  },
+  "good_4": {
+    "image": "images/r_4.png",
+    "discount": 13,
+    "price": 26000,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_5": {
+    "image": "images/r_5.jpg",
+    "discount": 13,
+    "price": 26000,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_6": {
+    "image": "images/r_6.jpg",
+    "discount": 13,
+    "price": 26000,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_7": {
+    "image": "images/r_7.jpg",
+    "discount": 13,
+    "price": 26000,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_8": {
+    "image": "images/r_8.jpg",
+    "discount": 13,
+    "price": 26000,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_9": {
+    "image": "images/r_9.jpg",
+    "discount": 13,
+    "price": 26000,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_10": {
+    "image": "images/r_10.jpg",
+    "discount": 13,
+    "price": 26000,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_11": {
+    "image": "images/r_11.jpg",
+    "discount": 13,
+    "price": 26000,
+    "desc": "설명입니다.",
+    "url": "a.html"
+  },
+  "good_12": {
+    "url": "go.html"
+  }
+}

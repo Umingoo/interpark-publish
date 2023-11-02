@@ -1,0 +1,75 @@
+{
+  "total": 8,
+  "ticket_1": {
+    "url": "a.html",
+    "rank": 1,
+    "image": "images/ticket1.gif",
+    "title": "태양의 서커스 <루치아>",
+    "place": "잠실종합운동장 내 빅탑",
+    "date": "2023.10.25 ~2023.12.31",
+    "option": "좌석우위"
+  },
+  "ticket_2": {
+    "url": "a.html",
+    "rank": 2,
+    "image": "images/ticket2.gif",
+    "title": "태양의 서커스 <루치아>",
+    "place": "잠실종합운동장 내 빅탑",
+    "date": "2023.10.25 ~2023.12.31",
+    "option": "좌석우위"
+  },
+  "ticket_3": {
+    "url": "a.html",
+    "rank": 3,
+    "image": "images/ticket3.gif",
+    "title": "태양의 서커스 <루치아>",
+    "place": "잠실종합운동장 내 빅탑",
+    "date": "2023.10.25 ~2023.12.31",
+    "option": "좌석우위"
+  },
+  "ticket_4": {
+    "url": "a.html",
+    "rank": 4,
+    "image": "images/ticket4.gif",
+    "title": "태양의 서커스 <루치아>",
+    "place": "잠실종합운동장 내 빅탑",
+    "date": "2023.10.25 ~2023.12.31",
+    "option": "좌석우위"
+  },
+  "ticket_5": {
+    "url": "a.html",
+    "rank": 5,
+    "image": "images/ticket1.gif",
+    "title": "태양의 서커스 <루치아>",
+    "place": "잠실종합운동장 내 빅탑",
+    "date": "2023.10.25 ~2023.12.31",
+    "option": "좌석우위"
+  },
+  "ticket_6": {
+    "url": "a.html",
+    "rank": 6,
+    "image": "images/ticket6.gif",
+    "title": "태양의 서커스 <루치아>",
+    "place": "잠실종합운동장 내 빅탑",
+    "date": "2023.10.25 ~2023.12.31",
+    "option": "좌석우위"
+  },
+  "ticket_7": {
+    "url": "a.html",
+    "rank": 7,
+    "image": "images/ticket7.gif",
+    "title": "태양의 서커스 <루치아>",
+    "place": "잠실종합운동장 내 빅탑",
+    "date": "2023.10.25 ~2023.12.31",
+    "option": "좌석우위"
+  },
+  "ticket_8": {
+    "url": "a.html",
+    "rank": 1,
+    "image": "images/ticket1.gif",
+    "title": "태양의 서커스 <루치아>",
+    "place": "잠실종합운동장 내 빅탑",
+    "date": "2023.10.25 ~2023.12.31",
+    "option": "좌석우위"
+  }
+}

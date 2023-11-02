@@ -14,21 +14,21 @@
   width: 100%;
   height: 100%;
 }
-.visaul-slide {
+.visual-slide {
 }
 
-.visaul-slide-item {
+.visual-slide-item {
   position: relative;
   width: 628px;
 }
-.visaul-slide-item a {
+.visual-slide-item a {
   position: relative;
   width: 100%;
   display: block;
   overflow: hidden;
   border-radius: 13px;
 }
-.visaul-slide-item a img {
+.visual-slide-item a img {
   width: 100%;
 }
 

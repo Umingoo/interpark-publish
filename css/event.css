@@ -1,0 +1,23 @@
+.event {
+  position: relative;
+  padding-bottom: 90px;
+}
+.event-header {
+  position: relative;
+  margin: 0 auto;
+}
+.event-title {
+  position: relative;
+}
+.event-txt {
+  position: relative;
+}
+.event-main {
+  position: relative;
+}
+.event-slide-wrap {
+  position: relative;
+}
+.event-footer {
+  position: relative;
+}

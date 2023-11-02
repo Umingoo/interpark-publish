@@ -1,0 +1,38 @@
+.live {
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.live-inner {
+  width: 1280px;
+  margin: 0 auto;
+}
+.live-header {
+  position: relative;
+}
+
+.live-title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.live-title img {
+  position: relative;
+  width: 155px;
+  height: auto;
+}
+.live-main {
+  position: relative;
+  margin: 0 auto;
+  width: 1280px;
+}
+.live-slide-wrap {
+  position: relative;
+  height: 455px;
+  margin-top: 24px;
+  background-color: yellow;
+}
+.live-footer {
+  position: relative;
+}

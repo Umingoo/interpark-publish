@@ -1,0 +1,125 @@
+.ticket {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+.ticket-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+.ticket-header {
+  position: relative;
+}
+.ticket-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+.ticket-txt {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  color: #a7a9a7;
+  text-align: center;
+}
+.ticket-main {
+  position: relative;
+  padding: 25px 0;
+}
+.ticket-cate {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.ticket-list {
+  position: relative;
+  display: flex;
+  gap: 4px;
+}
+
+.ticket-slide-wrap {
+  position: relative;
+  margin-top: 23px;
+  height: 520px;
+  /* background-color: yellowgreen; */
+}
+.ticket-slide {
+  position: relative;
+}
+.ticket-slide-item {
+  position: relative;
+  height: 520px;
+  overflow: hidden;
+}
+.ticket-link {
+  position: relative;
+}
+.ticket-img img {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.ticket-info {
+  position: relative;
+  height: 135px;
+  padding: 16px 8px;
+}
+.ticket-good-list {
+  position: relative;
+}
+.ticket-info-desc {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.ticket-info-desc b {
+  position: relative;
+  display: block;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #565656;
+}
+.ticket-info-desc p {
+  position: relative;
+  font-weight: 300;
+  font-size: 1.4rem;
+  margin-top: 10px;
+  color: #aaaaaa;
+}
+.ticket-seat {
+  position: relative;
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  border: 0.5px solid rgb(38, 109, 240, 0.3);
+  color: rgb(38, 109, 240, 0.9);
+  border-radius: 3px;
+}
+
+.rank {
+  position: absolute;
+  font-size: 7rem;
+  font-weight: 800;
+  top: 58%;
+  left: 7%;
+  color: #fff;
+}
+
+.ticket-footer {
+  position: relative;
+}
+.ticket-slide-wrap .slide-next-bt {
+  transform: translate(50%, calc(50% - 100px));
+}
+.ticket-slide-wrap .slide-prev-bt {
+  transform: translate(-50%, calc(-50% - 50px));
+}
