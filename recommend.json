@@ -22,17 +22,17 @@
     "url": "a.html"
   },
   "good_4": {
-    "image": "images/r_4.png",
+    "image": "images/r_4.jpg",
     "discount": 13,
-    "price": 26000,
-    "desc": "설명입니다.",
+    "price": 6960,
+    "desc": "[텐바이텐][1+1 한정판매] 2024 스누피 데스크 캘린더 1+1",
     "url": "a.html"
   },
   "good_5": {
     "image": "images/r_5.jpg",
-    "discount": 13,
-    "price": 26000,
-    "desc": "설명입니다.",
+    "discount": 20,
+    "price": 9800,
+    "desc": "베베토 젤리 3종 택1 (미니베어 980g, 미니믹스 900g, 콜라 980g",
     "url": "a.html"
   },
   "good_6": {

@@ -8,6 +8,8 @@
     <script src="js/recommend.js"></script>
     <script src="js/tour.js"></script>
     <script src="js/ticket.js"></script>
+    <script src="js/book.js"></script>
+    <script src="js/event.js"></script>
 
     <!-- Link Swiper's CSS -->
     <link
@@ -527,8 +529,17 @@
                           <div class="live-img">
                             <img src="images/r_1.jpg" alt="" />
                           </div>
-                          <div class="live-info"></div>
+                          <span class="live-text">
+                            <p>방송예정</p>
+                            <b
+                              >[에듀트립] 글로벌 캠프 첫방 기념 최초 할인! 채팅
+                              참여만 해도 경품 추첨</b
+                            >
+                            <h2>11월 08일 (수)</h2>
+                            <em>11:00</em>
+                          </span>
                         </a>
+                        <a href="#" class="live-sub"></a>
                       </div>
                     </div>
                     <div class="swiper-slide">
@@ -671,12 +682,18 @@
               <div class="swiper book-slide">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="book">
+                    <div class="book-slide-item">
                       <a href="#" class="book-link">
                         <div class="book-img">
-                          <img src="images/r_1.jpg" alt="" />
+                          <img src="images/b_1.jpg" alt="" />
                         </div>
-                        <div class="book-info"></div>
+                        <div class="book-info">
+                          <span class="book-info-desc">
+                            <p>블루 아카이브 2주년 기념 Ost [Kit 앨범</p>
+                            <b>32,000</b>
+                            원
+                          </span>
+                        </div>
                       </a>
                     </div>
                   </div>
@@ -790,11 +807,23 @@
                       </a>
                     </div>
                   </div>
+                  -->
                 </div>
               </div>
+              <button class="slide-prev-bt">
+                <img src="images/slider_arrow.svg" alt="" />
+              </button>
+              <button class="slide-next-bt">
+                <img src="images/slider_arrow.svg" alt="" />
+              </button>
             </div>
           </div>
-          <div class="book-footer"></div>
+          <div class="footer-link">
+            <a href="#" class="link-bt">
+              <span> 도서 홈 바로가기 </span>
+              <img src="images/icon_arrow.svg" alt="" />
+            </a>
+          </div>
         </section>
         <!-- 오늘의 도서// -->
         <section class="event">
@@ -808,12 +837,11 @@
               <div class="swiper event-slide">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <div class="event">
+                    <div class="event-slide-item">
                       <a href="#" class="event-link">
                         <div class="event-img">
-                          <img src="images/r_1.jpg" alt="" />
+                          <img src="images/e_1.jpg" alt="" />
                         </div>
-                        <div class="event-info"></div>
                       </a>
                     </div>
                   </div>
@@ -929,9 +957,14 @@
                   </div>
                 </div>
               </div>
+              <button class="slide-prev-bt">
+                <img src="images/slider_arrow.svg" alt="" />
+              </button>
+              <button class="slide-next-bt">
+                <img src="images/slider_arrow.svg" alt="" />
+              </button>
             </div>
           </div>
-          <div class="event-footer"></div>
         </section>
       </div>
       <!-- 하단 영역 -->
@@ -950,13 +983,5 @@
   const swiperLive = new Swiper(".live-slide", {
     slidesPerView: 4,
     spaceBetween: 28,
-  });
-  const swiperBook = new Swiper(".book-slide", {
-    slidesPerView: 4,
-    spaceBetween: 28,
-  });
-  const swiperEvent = new Swiper(".event-slide", {
-    slidesPerView: 4,
-    spaceBetween: 27,
   });
 </script>

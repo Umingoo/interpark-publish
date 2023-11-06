@@ -25,9 +25,9 @@
 }
 .book-main {
   position: relative;
-  padding: 25px 0;
   width: 1280px;
   margin: 0 auto;
+  padding: 25px 0;
 }
 .book-cate {
   position: relative;
@@ -42,8 +42,51 @@
 .book-slide-wrap {
   position: relative;
   height: 400px;
+  display: flex;
   margin-top: 24px;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
+}
+.book-slide-item {
+  position: relative;
+}
+.book-link {
+  position: relative;
+}
+.book-img {
+  position: relative;
+}
+.book-img img {
+  position: relative;
+  width: 232px;
+  height: 335px;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+.book-info {
+  position: relative;
+  width: 100%;
+}
+.book-info-desc {
+  position: relative;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.book-info-desc p {
+  position: relative;
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  overflow: hidden;
+  font-size: 1.5rem;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.book-info-desc b {
+  position: relative;
+  margin: 0 auto;
+  font-size: 2rem;
 }
 .book-footer {
   position: relative;

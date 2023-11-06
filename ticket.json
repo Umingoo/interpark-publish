@@ -13,63 +13,57 @@
     "url": "a.html",
     "rank": 2,
     "image": "images/ticket2.gif",
-    "title": "태양의 서커스 <루치아>",
-    "place": "잠실종합운동장 내 빅탑",
-    "date": "2023.10.25 ~2023.12.31",
+    "title": "뮤지컬 <몬테크리스토>",
+    "place": "충무아트센터 대극장",
+    "date": "2023.11.21 ~2024.02.25",
     "option": "좌석우위"
   },
   "ticket_3": {
     "url": "a.html",
     "rank": 3,
     "image": "images/ticket3.gif",
-    "title": "태양의 서커스 <루치아>",
-    "place": "잠실종합운동장 내 빅탑",
-    "date": "2023.10.25 ~2023.12.31",
+    "title": "뮤지컬 <스모크>",
+    "place": "링크아트센터 벅스홀",
+    "date": "2023.11.15 ~2024.02.04",
     "option": "좌석우위"
   },
   "ticket_4": {
     "url": "a.html",
     "rank": 4,
     "image": "images/ticket4.gif",
-    "title": "태양의 서커스 <루치아>",
-    "place": "잠실종합운동장 내 빅탑",
-    "date": "2023.10.25 ~2023.12.31",
+    "title": "뮤지컬 <블랙메리포핀스>",
+    "place": "서경대학교 공연예술센터 스콘1관",
+    "date": "2023.09.21 ~2023.12.03",
     "option": "좌석우위"
   },
   "ticket_5": {
     "url": "a.html",
     "rank": 5,
-    "image": "images/ticket1.gif",
-    "title": "태양의 서커스 <루치아>",
-    "place": "잠실종합운동장 내 빅탑",
-    "date": "2023.10.25 ~2023.12.31",
+    "image": "images/ticket5.gif",
+    "title": "뮤지컬 <레미제라블>",
+    "place": "블루스퀘어 신한카드홀",
+    "date": "2023.11.30 ~2024.03.10",
     "option": "좌석우위"
   },
   "ticket_6": {
     "url": "a.html",
     "rank": 6,
     "image": "images/ticket6.gif",
-    "title": "태양의 서커스 <루치아>",
-    "place": "잠실종합운동장 내 빅탑",
-    "date": "2023.10.25 ~2023.12.31",
+    "title": "뮤지컬 〈레베카〉 10주년 기념공연",
+    "place": "블루스퀘어 신한카드홀",
+    "date": "2023.08.19 ~2023.11.19",
     "option": "좌석우위"
   },
   "ticket_7": {
     "url": "a.html",
     "rank": 7,
     "image": "images/ticket7.gif",
-    "title": "태양의 서커스 <루치아>",
-    "place": "잠실종합운동장 내 빅탑",
-    "date": "2023.10.25 ~2023.12.31",
+    "title": "뮤지컬 <렌트>",
+    "place": "coex 신한카드 artium",
+    "date": "2023.11.11 ~2023.02.25",
     "option": "좌석우위"
   },
   "ticket_8": {
-    "url": "a.html",
-    "rank": 1,
-    "image": "images/ticket1.gif",
-    "title": "태양의 서커스 <루치아>",
-    "place": "잠실종합운동장 내 빅탑",
-    "date": "2023.10.25 ~2023.12.31",
-    "option": "좌석우위"
+    "url": "go.html"
   }
 }

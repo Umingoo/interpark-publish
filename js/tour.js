@@ -1,5 +1,9 @@
 window.addEventListener("load", function () {
-  console.log("투어상품");
+  function numberWithCommas(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+  numberWithCommas(2599000);
+  // console.log("투어상품");
 
   // 추천 상품 슬라이드 기능
   // 글로써 코딩 시나리오 작성 : 의사코드
@@ -49,7 +53,7 @@ window.addEventListener("load", function () {
                   <p>
                   ${obj.place}
                   </p>
-                  <b>${obj.price}</b>
+                  <b>${numberWithCommas(obj.price)}</b>
                   원~
                 </span>
               </li>
